@@ -1,9 +1,5 @@
 //glitch
 $(function(e){
-	var j = $.noConflict();
-	// console.log(j.fn);
-	// console.log($.fn);
-
 	var timer = setTimeout(function(){
 		$(".gridbackground").mgGlitch({
 			destroy : false,
