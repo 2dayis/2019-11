@@ -69,7 +69,7 @@
 		}
 		a { text-decoration: none; }
 		.logo{
-			background-image: url(https://bjjeon.cafe24.com/stu/final/bjjeon2-logo.png);
+			background-image: url('../bjjeon2-logo.png');
 			position: absolute;
 			top: 0;
 			left: 0;
