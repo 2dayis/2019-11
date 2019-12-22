@@ -16,9 +16,6 @@
 		tl.fromTo(wrapper, 0.6, {opacity:0},{opacity:1, ease:Power4.easeInOut}, '-=0.5');
 	}
 
-	var j = $.noConflict();
-	console.log(j.fn);
-	
 	(function($) {
 		$(window).on('load', function(){
 			$.instagramFeed({
