@@ -1,0 +1,45 @@
+	*{margin:0; padding:0; box-sizing: border-box;}
+	html, body, main {height: 100%;}
+	body {overflow-x: hidden; font-family: 'Noto Sans JP', sans-serif;}
+	.center {
+		position: absolute;
+		font-size: 4rem;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-family: damion,cursive;
+		opacity: 0;
+	}
+	.openbar {
+		position: absolute;
+		margin-left: 50%;
+		top: 50%;
+		width: 0;
+		height: 1px;
+		background-color: black;
+	}
+	.wrapper {
+		display: none;
+		position: relative;
+		width: 100%;
+		height: auto;
+		background: black;
+		opacity: 0;
+	}
+	.mainch {
+		color: white;
+		text-align: center;
+		font-size: 9rem;
+		font-family: damion,cursive;
+	}
+	.mail {
+		width: 80%;
+		height: 30px;
+		margin: 0 auto;
+		text-align: right;
+		color: white;
+	}
+	section { width: 80%; margin: auto;}
+	.bar {background-color: #1e1e1e; padding: 1rem;}
+	#insta {width: 100%;}
+	footer {width: 80%; margin: auto; text-align: center; color: #383838;}

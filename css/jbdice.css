@@ -1,0 +1,96 @@
+		*{margin:0; padding:0; box-sizing: border-box;}
+		body{
+			background : #f7f4e7;
+			font-family: 'Arimo', sans-serif;
+			overflow: hidden;
+		}
+		.wrapper {
+			position: absolute;
+			top: 0;
+			left: 0;
+			/*left: -50%;*/
+			right: 0;
+			bottom: 20%;
+			margin: auto;
+			transform-style: preserve-3d;
+			width: 200px;
+			height: 200px;
+		}
+		.wrapper div {
+			position: absolute;
+			width: 200px;
+			height: 200px;
+		}
+		.main{
+			transform: rotateY(0deg) translate3d(0,0,100px);
+			background-color: orange;
+			padding: 12% 0 0 12%;
+		}
+		.one{
+			transform: rotateY(90deg) translate3d(0,0,100px);
+			background-color: #d61e1e;
+			text-align: right;
+			padding: 12% 12% 12% 12%;
+		}
+		.two{
+			transform: rotateY(180deg) translate3d(0,0,100px);
+			background-color: #d6c11e;
+			padding: 12% 0 0 12%;
+		}
+		.three{
+			transform: rotateY(270deg) translate3d(0,0,100px);
+			background-color: #80d61e;
+			padding: 70% 0 12% 12%;
+		}
+		.four{
+			transform: rotateX(90deg) translate3d(0,0,100px);
+			background-color: #1ebdd6;
+			padding: 12% 0 0 12%;
+		}
+		.five{
+			transform: rotateX(270deg) translate3d(0,0,100px);
+			background-color: #c71ed6;
+			padding: 60px 0 12% 12%;
+		}
+		h6{margin-bottom: -10px;}
+
+		nav{
+			position: fixed;
+			display: flex;
+			top: 85%;
+		    left: 50%;
+    		transform: translate(-50%, 0);
+		}
+		nav div{
+			display: inline-block;
+			font-size: 3vw;
+			margin: 1vh;
+			cursor: crosshair;
+		}
+		a { text-decoration: none; }
+		.logo{
+			background-image: url(https://bjjeon.cafe24.com/stu/final/bjjeon2-logo.png);
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 10vh;
+			height: 10vh;
+			background-repeat: no-repeat;
+			background-size: contain;
+			z-index: 10;
+		}
+		.bjjeon {
+			position: fixed;
+			top: 97%;
+			left: 0;
+			z-index: 100;
+		}
+
+		@media screen and (min-width: 745px){
+			nav div{
+			display: inline-block;
+			font-size: 1.5vw;
+			margin: 1vh;
+			cursor: crosshair;
+		}
+		}
