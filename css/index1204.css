@@ -50,8 +50,7 @@ table {
 
 	*{ box-sizing: border-box; font-family: 'Francois One', sans-serif;}
 	html { scroll-behavior: smooth;}
-	main { background-color: #f7f4e7;}
-	body { overflow-x: hidden;}
+	body { overflow-x: hidden; background-color: #f7f4e7;}
 	header { height: 100vh; border-bottom: 10px solid #fd6c54;}
 	header nav {
 		padding-top: 1rem;
